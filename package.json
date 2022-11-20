@@ -1,0 +1,20 @@
+{
+  "name": "mf-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "rebuild": "electron-rebuild -f -w nfc-pcsc",
+    "start": "electron ."
+  },
+  "author": "Philip Heur",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^21.3.0",
+    "electron-rebuild": "^3.2.9"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "nfc-pcsc": "^0.8.1"
+  }
+}
